@@ -1,0 +1,5 @@
+n = input('Informe seu nome: ')
+print(f'O seu nome em letras maiusculo é {n.upper()}')
+print(f'O seu nome em letras minusculas é {n.lower()}')
+print(f'A quantidade de letras nom seu nome é de {len(n) - n.count(' ')}')
+print(f'Seu primeiro nome é {n.split()[0]}, e a quantidade de letras é de {len(n.split()[0])}')
